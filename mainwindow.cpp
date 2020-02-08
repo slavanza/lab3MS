@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->comboBox->insertItem(1,"100",100);
     ui->comboBox->insertItem(2,"1000",1000);
     ui->comboBox->insertItem(3,"100000",100000);
+//    ui->comboBox->insertItem(4,"1000000",1000000);
 
     ui->label_res->setVisible(false);
 }
@@ -34,9 +35,9 @@ void MainWindow::on_pushButton_clicked()
     ui->spin_Mark->setValue(myAlgorithm.mark);
 
     if(myAlgorithm.mark < 1.22)
-        ui->label_res->setText("Распределение не подходит по критерию Колмагорова");
+        ui->label_res->setText("Распределение не подходит по критерию Колмогорова");
     else
-        ui->label_res->setText("Распределение подходит по критерию Колмагорова");
+        ui->label_res->setText("Распределение подходит по критерию Колмогорова");
 
     QVector<double> analytic_x, analytic_F;
     double step = 1.5 / 1000000;

@@ -136,7 +136,7 @@ public:
         doubleSpinBox_3->setFrame(false);
         doubleSpinBox_3->setReadOnly(true);
         doubleSpinBox_3->setButtonSymbols(QAbstractSpinBox::NoButtons);
-        doubleSpinBox_3->setValue(0.980000000000000);
+        doubleSpinBox_3->setValue(0.130000000000000);
 
         gridLayout_2->addWidget(doubleSpinBox_3, 2, 3, 1, 1);
 
@@ -145,7 +145,7 @@ public:
         doubleSpinBox_4->setFrame(false);
         doubleSpinBox_4->setReadOnly(true);
         doubleSpinBox_4->setButtonSymbols(QAbstractSpinBox::NoButtons);
-        doubleSpinBox_4->setValue(0.880000000000000);
+        doubleSpinBox_4->setValue(0.120000000000000);
 
         gridLayout_2->addWidget(doubleSpinBox_4, 1, 3, 1, 1);
 

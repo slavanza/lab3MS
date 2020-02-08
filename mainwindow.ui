@@ -123,7 +123,7 @@
          <enum>QAbstractSpinBox::NoButtons</enum>
         </property>
         <property name="value">
-         <double>0.980000000000000</double>
+         <double>0.130000000000000</double>
         </property>
        </widget>
       </item>
@@ -139,7 +139,7 @@
          <enum>QAbstractSpinBox::NoButtons</enum>
         </property>
         <property name="value">
-         <double>0.880000000000000</double>
+         <double>0.120000000000000</double>
         </property>
        </widget>
       </item>
